@@ -11,8 +11,8 @@ interface lifeform{
 
 public class Animal extends Zoo {
 
-    public Animal(String entityName, int entityage){
-        super(entityName, entityage);
+    public Animal(String entityName, int entityAge){
+        super(entityName, entityAge);
     }
 
 }
