@@ -1,6 +1,6 @@
 
 
-
+//important to note that we cannot instansiate an abstract class
 public abstract class Avian extends Animal {
     abstract void chirp();
     abstract void flap();
@@ -10,10 +10,9 @@ public abstract class Avian extends Animal {
         this.name=entityName;
         this.age=entityAge;
     }
-
 }
 
- class Penguin extends Avian implements lifeform{
+ class Penguin extends Avian implements lifeForm{
 
      public Penguin(String entityName, int entityAge) {
          super(entityName, entityAge);
@@ -43,7 +42,7 @@ public abstract class Avian extends Animal {
     }
 }
 
-class RandomBird extends Avian implements lifeform {
+class RandomBird extends Avian implements lifeForm {
     private String birdType;
 
     public RandomBird(String entityName, int entityAge) {
