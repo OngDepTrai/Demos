@@ -1,6 +1,6 @@
 
 
-//important to note that we cannot instansiate an abstract class
+//important to note that we cannot instantiate an abstract class
 public abstract class Avian extends Animal {
     abstract void chirp();
     abstract void flap();

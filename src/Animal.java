@@ -1,4 +1,6 @@
 /*
+Original concept is that all animals will have some common traits
+so this class will have fields and methods related to that.
 
 */
 import java.io.*;
